@@ -988,6 +988,7 @@ int main( int argc, char *argv[] )
         return -1;
     }
 
+    ITMDecoderForceSync( &_r.i, TRUE );
     while ( ( t = read( sockfd, cbw, MAX_IP_PACKET_LEN ) ) > 0 )
     {
         uint8_t *c = cbw;

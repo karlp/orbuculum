@@ -620,6 +620,7 @@ int main( int argc, char *argv[] )
         return -1;
     }
 
+    ITMDecoderForceSync( &_r.i, TRUE );
     while ( ( t = read( sockfd, cbw, TRANSFER_SIZE ) ) > 0 )
     {
         unsigned char *c = cbw;

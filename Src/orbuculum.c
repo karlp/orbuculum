@@ -1253,6 +1253,7 @@ int seggerFeeder( void )
             fprintf( stdout, "Established Segger Link\n" );
         }
 
+        ITMDecoderForceSync( &_r.i, TRUE );
         while ( ( t = read( sockfd, cbw, MAX_IP_PACKET_LEN ) ) > 0 )
         {
             _sendToClients( t, cbw );
