@@ -81,7 +81,7 @@ struct                                      /* Record for options, either defaul
     char *server;
 } options =
 {
-    .useTPIU = TRUE,
+    .useTPIU = FALSE,
     .tpiuITMChannel = 1,
     .outfile = DEFAULT_OUTFILE,
     .timelen = DEFAULT_TIMELEN,
