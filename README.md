@@ -1,4 +1,6 @@
 ![Screenshot](https://raw.githubusercontent.com/orbcode/orbuculum/master/Docs/title.png)
+[![Build Status: master](https://travis-ci.com/karlp/orbuculum.svg?branch=master)](https://travis-ci.com/karlp/orbuculum)
+[![Build Status: Devel](https://travis-ci.com/karlp/orbuculum.svg?branch=Devel)](https://travis-ci.com/karlp/orbuculum)
 
 *** STOP PRESS ***
 
